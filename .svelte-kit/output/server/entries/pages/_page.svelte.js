@@ -1,4 +1,5 @@
 import { d as stringify } from "../../chunks/index.js";
+import { b as base } from "../../chunks/paths.js";
 import { e as escape_html } from "../../chunks/escaping.js";
 import "clsx";
 const replacements = {
