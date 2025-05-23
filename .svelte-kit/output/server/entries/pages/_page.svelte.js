@@ -15,7 +15,8 @@ function attr(name, value, is_boolean = false) {
   return ` ${name}${assignment}`;
 }
 function _page($$payload) {
-  $$payload.out += `<h1>Welcome to SvelteKit</h1> <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p> <ul><li><a${attr("href", `${stringify(base)}/about`)}>ABOUT</a></li></ul>`;
+  $$payload.out += `<h1>Welcome to SvelteKit</h1> <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the
+  documentation</p> <a${attr("href", `${stringify(base)}/about`)}>ABOUT</a>`;
 }
 export {
   _page as default
