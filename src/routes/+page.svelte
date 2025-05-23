@@ -2,5 +2,5 @@
 <p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
 
 <ul>
-    <li><a href="/mystaticsvelte/about">about</a></li>
+    <li><a href="{base}/about">ABOUT</a></li>
 </ul>
